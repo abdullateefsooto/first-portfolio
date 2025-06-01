@@ -360,6 +360,7 @@ header div nav ul li a:hover::after{
 .span{
     font-size: x-large;
     text-transform: lowercase;
+    flex-basis: 65px;
 }
 #msg{
     color: #2618f0;
@@ -375,7 +376,6 @@ header div nav ul li a:hover::after{
 
 .all{
     margin: 20px 50px;
-    flex-basis: 65px;
   }
   form{
     margin-left: 10%;
