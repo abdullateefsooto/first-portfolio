@@ -225,8 +225,9 @@ header div nav ul li a:hover::after{
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    flex-wrap: 1;
   }
-  .pp{
+.pp{
       font-size: x-large;
       margin-top: 50px;
     }
@@ -374,6 +375,7 @@ header div nav ul li a:hover::after{
 
 .all{
     margin: 20px 50px;
+    flex-basis: 65px;
   }
   form{
     margin-left: 10%;
@@ -403,6 +405,7 @@ header div nav ul li a:hover::after{
     width: 70%;
     height: 90px;
     padding: 8px 16px;
+    cursor: cell;
   }
   .get{
     text-decoration: none;

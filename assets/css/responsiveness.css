@@ -52,8 +52,12 @@
         color: blue;
     }
     .grid img{
-        margin: 0 ;
+        /* margin: 0 0 0 80px ; */
         width: 300px;
+        margin: 0;
+    }
+    .did{
+        text-align: center;
     }
     .pp{
         text-align: center;
@@ -61,6 +65,19 @@
     .all{
         margin: 30px 30px;
     }
+    .container input{
+    margin-top: 4px;
+    border-radius: 12px;
+    width: 90%;
+    padding: 16px 20px;
+  }
+   .text textarea{
+    margin-left: 0;
+    border-radius: 12px;
+    width: 92%;
+    height: 90px;
+    padding: 8px 16px;
+  }
 
 
 
