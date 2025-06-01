@@ -8,9 +8,6 @@ body{
   color: #ffffff;
 }
 /* nav */
-nav{
-  position: st;
-}
 header > div{
     background-color: rgb(211, 214, 213);
     display: flex;
@@ -360,7 +357,6 @@ header div nav ul li a:hover::after{
 .span{
     font-size: x-large;
     text-transform: lowercase;
-    flex-basis: 65px;
 }
 #msg{
     color: #2618f0;
