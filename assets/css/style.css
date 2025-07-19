@@ -6,6 +6,15 @@
 body{
   background-color: #0c0b0b;
   color: #ffffff;
+  animation: color 10s infinite ease-in-out;
+}
+@keyframes color {
+  0% {background-color: rgb(0, 0, 0);}
+  35% {background-color: rgb(15, 14, 14);}
+  55% {background-color: rgb(2, 0, 2);}
+  -75% {background-color: rgb(8, 7, 14);}
+  95% {background-color: rgb(8, 8, 8);}
+  100% {background-color : rgb(0, 0, 0);}
 }
 /* nav */
 header > div{
@@ -401,7 +410,6 @@ header div nav ul li a:hover::after{
     width: 70%;
     height: 90px;
     padding: 8px 16px;
-    cursor: cell;
   }
   .get{
     text-decoration: none;
